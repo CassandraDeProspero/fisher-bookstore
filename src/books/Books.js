@@ -1,13 +1,13 @@
 import React from "react";
-import "./Home.css";
+import { Route, Switch } from "react-router-dom";
+import Home from "./home/Home";
+import Books from "./books/Books";
 
-export default function Home() {
+export default function Routes() {
     return (
-        <div className="Home">
-            <div className="lander">
-                <h1>Home</h1>
-                <p>Welcome to Fisher Bookstore.</p>
-            </div>
-        </div>
+       <Switch>
+           <Route path="/" exact component={Home} />
+           <Route path="/books" component={Books} />
+       </Switch>
     );
 }
