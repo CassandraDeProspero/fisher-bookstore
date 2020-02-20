@@ -6,7 +6,6 @@ export default function Authors() {
         <div className="Authors">
             <div className="lander">
                 <h1>Authors</h1>
-                <p>Welcome to Fisher Bookstore.</p>
             </div>
         </div>
     );

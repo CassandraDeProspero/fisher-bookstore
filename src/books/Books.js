@@ -6,7 +6,6 @@ export default function Books() {
         <div className="Books">
             <div className="lander">
                 <h1>Books</h1>
-                <p>Welcome to Fisher Bookstore.</p>
             </div>
         </div>
     );
