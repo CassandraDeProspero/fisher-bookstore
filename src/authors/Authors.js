@@ -1,13 +1,13 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
-import Home from "./home/Home";
-import Authors from "./author/Authors";
+import "./Authors.css";
 
-export default function Routes() {
+export default function Authors() {
     return (
-       <Switch>
-           <Route path="/" exact component={Home} />
-           <Route path="/authors" component={Authors} />
-       </Switch>
+        <div className="Authors">
+            <div className="lander">
+                <h1>Authors</h1>
+                <p>Welcome to Fisher Bookstore.</p>
+            </div>
+        </div>
     );
 }
