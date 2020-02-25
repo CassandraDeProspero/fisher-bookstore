@@ -1,6 +1,6 @@
 import React from "react";
 import { BookCard } from "./BookCard";
-import { CarColumns } from "react-bootstrap";
+import { CardColumns } from "react-bootstrap";
 
 export function BookDisplay(props) {
     return (

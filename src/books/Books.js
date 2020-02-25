@@ -1,5 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
+import { BookDisplay } from "./BookDisplay";
 import "./Books.css";
+
 
 export default class Books extends Component {
     constructor(props) {
