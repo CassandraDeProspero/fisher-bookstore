@@ -7,9 +7,10 @@ export function AuthorCard(props) {
             <Card.Img variant="top" src="https://via.placeholder.com/150" />
             <Card.Body>
                 <Card.Title>{props.author.FirstName} {props.author.LastName} </Card.Title>
-                <Card.Text>Author</Card.Text>
+                <Card.Text> Author </Card.Text>
                 <Button variant="warning">Add to Cart</Button>
             </Card.Body>
         </Card>
     );
 }
+

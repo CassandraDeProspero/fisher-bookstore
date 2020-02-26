@@ -10,43 +10,43 @@ export default class Authors extends Component {
             authors: [
                 {
                     id: 1,
-                    FirstName: "Domain Driven Design",
-                    LastName: "Eric Evans"
+                    FirstName: "Emily",
+                    LastName: "Dickinson"
                 },
                 {
                     id: 2,
-                    FirstName: "Accelerate",
-                    LastName: "Nicole Forsgren"
+                    FirstName: "William",
+                    LastName: "Shakespeare"
                 },
                 {
                     id: 3,
-                    FirstName: "The Nickel Boys",
-                    LastName: "Colson Whitehead"
+                    FirstName: "Leo",
+                    LastName: "Tolstoy"
                 },
                 {
                     id: 4,
-                    FirstName: "Gingerbread",
-                    LastName: "Helen Oyeyemi"
+                    FirstName: "Oscar",
+                    LastName: "Wilde"
                 },
                 {
                     id: 5,
-                    FirstName: "Nothing to See Here",
-                    LastName: "Kevin Wilson"
+                    FirstName: "John",
+                    LastName: "Donne"
                 },
                 {
                     id: 6,
-                    FirstName: "The Old Drift",
-                    LastName: "Namwali Serpell"
+                    FirstName: "Sarah",
+                    LastName: "Williams"
                 },
                 {
                     id: 7,
-                    FirstName: "Women Talking",
-                    LastName: "Miriam Toews"
+                    FirstName: "Rudyard",
+                    LastName: "Kipling"
                 },
                 {
                     id: 8,
-                    FirstName: "The Dutch House",
-                    LastName: "Ann Patchett"
+                    FirstName: "John",
+                    LastName: "Keats"
                 }
             ]
         };
