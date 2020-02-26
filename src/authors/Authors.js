@@ -10,51 +10,43 @@ export default class Authors extends Component {
             authors: [
                 {
                     id: 1,
-                    title: "Domain Driven Design",
-                    author: "Eric Evans",
-                    isbn: "978-0321125217"
+                    FirstName: "Domain Driven Design",
+                    LastName: "Eric Evans"
                 },
                 {
                     id: 2,
-                    title: "Accelerate",
-                    author: "Nicole Forsgren",
-                    isbn: "978-1942788331"
+                    FirstName: "Accelerate",
+                    LastName: "Nicole Forsgren"
                 },
                 {
                     id: 3,
-                    title: "The Nickel Boys",
-                    author: "Colson Whitehead",
-                    isbn: "978-3861900365"
+                    FirstName: "The Nickel Boys",
+                    LastName: "Colson Whitehead"
                 },
                 {
                     id: 4,
-                    title: "Gingerbread",
-                    author: "Helen Oyeyemi",
-                    isbn: "978-2973309163"
+                    FirstName: "Gingerbread",
+                    LastName: "Helen Oyeyemi"
                 },
                 {
                     id: 5,
-                    title: "Nothing to See Here",
-                    author: "Kevin Wilson",
-                    isbn: "978-1739733202"
+                    FirstName: "Nothing to See Here",
+                    LastName: "Kevin Wilson"
                 },
                 {
                     id: 6,
-                    title: "The Old Drift",
-                    author: "Namwali Serpell",
-                    isbn: "978-1120973857"
+                    FirstName: "The Old Drift",
+                    LastName: "Namwali Serpell"
                 },
                 {
                     id: 7,
-                    title: "Women Talking",
-                    author: "Miriam Toews",
-                    isbn: "978-1128720979"
+                    FirstName: "Women Talking",
+                    LastName: "Miriam Toews"
                 },
                 {
                     id: 8,
-                    title: "The Dutch House",
-                    author: "Ann Patchett",
-                    isbn: "978-1000938710"
+                    FirstName: "The Dutch House",
+                    LastName: "Ann Patchett"
                 }
             ]
         };
