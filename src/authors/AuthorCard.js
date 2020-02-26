@@ -6,7 +6,7 @@ export function AuthorCard(props) {
         <Card style = {{ width: "16m "}}>
             <Card.Img variant="top" src="https://via.placeholder.com/150" />
             <Card.Body>
-                <Card.Title>{props.author.FirstName} {props.author.LastName} </Card.Title>
+                <Card.Title>{props.authors.FirstName} {props.authors.LastName} </Card.Title>
                 <Card.Text> Author </Card.Text>
                 <Button variant="warning">Add to Cart</Button>
             </Card.Body>

@@ -10,7 +10,7 @@ export default class Authors extends Component {
             authors: [
                 {
                     id: 1,
-                    FirstName: "Emily",
+                    firstName: "Emily",
                     LastName: "Dickinson"
                 },
                 {
